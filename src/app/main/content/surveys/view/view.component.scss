@@ -1,0 +1,23 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~survey-angular/survey.css";
+@import "~surveyjs-editor/surveyeditor.css";
+@import "~jquery-ui/themes/base/theme.css";
+@import "~jquery-ui/themes/base/datepicker.css";
+@import "~nouislider/distribute/nouislider.css";
+@import "~select2/dist/css/select2.css";
+@import "~pretty-checkbox/dist/pretty-checkbox.css";
+@import "~bootstrap-slider/dist/css/bootstrap-slider.css";
+@import "~jquery-bar-rating/dist/themes/bars-pill.css";
+@import "~jquery-bar-rating/dist/themes/css-stars.css";
+@import "~jquery-bar-rating/dist/themes/fontawesome-stars.css";
+@import "~jquery-bar-rating/dist/themes/bars-1to10.css";
+@import "~jquery-bar-rating/dist/themes/bars-horizontal.css";
+@import "~jquery-bar-rating/dist/themes/bars-movie.css";
+@import "~jquery-bar-rating/dist/themes/bars-reversed.css";
+@import "~jquery-bar-rating/dist/themes/bars-square.css";
+@import "~jquery-bar-rating/dist/themes/bootstrap-stars.css";
+@import "~jquery-bar-rating/dist/themes/fontawesome-stars-o.css";
+:host {
+    #surveys-view {
+    }
+}

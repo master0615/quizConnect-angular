@@ -1,0 +1,270 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~survey-angular/survey.css";
+@import "~surveyjs-editor/surveyeditor.css";
+@import "~jquery-ui/themes/base/theme.css";
+@import "~jquery-ui/themes/base/datepicker.css";
+@import "~nouislider/distribute/nouislider.css";
+@import "~select2/dist/css/select2.css";
+@import "~pretty-checkbox/dist/pretty-checkbox.css";
+@import "~bootstrap-slider/dist/css/bootstrap-slider.css";
+@import "~jquery-bar-rating/dist/themes/bars-pill.css";
+@import "~jquery-bar-rating/dist/themes/css-stars.css";
+@import "~jquery-bar-rating/dist/themes/fontawesome-stars.css";
+@import "~jquery-bar-rating/dist/themes/bars-1to10.css";
+@import "~jquery-bar-rating/dist/themes/bars-horizontal.css";
+@import "~jquery-bar-rating/dist/themes/bars-movie.css";
+@import "~jquery-bar-rating/dist/themes/bars-reversed.css";
+@import "~jquery-bar-rating/dist/themes/bars-square.css";
+@import "~jquery-bar-rating/dist/themes/bootstrap-stars.css";
+@import "~jquery-bar-rating/dist/themes/fontawesome-stars-o.css";
+
+#surveys-edit{
+    // max-width:500px;
+    #surveyEditorContainer {
+
+        .svd_container,
+        .svd_properties,
+        .card,
+        .button,
+        label,
+        span,
+        textarea,
+        div,
+        a {
+            font-size: 14px;
+            font-weight: initial;
+        }
+        a{
+            border:0;
+        }
+
+        .svd_container {
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+
+            a, 
+            a.nav-link {
+                color: #676a6c !important;
+                cursor: pointer;
+                //padding: 10px 15px;
+                text-transform: initial;
+            }
+
+            a.cke_button {
+                display: inline-block;
+                height: 18px;
+                padding: 4px 4px;
+                outline: 0;
+                cursor: default;
+                border: 0;
+            }
+
+            a.cke_combo_button {
+                cursor: default;
+                border: 1px solid #a6a6a6;
+                border-bottom-color: #979797;
+                padding: 0;
+            }
+
+            .br-theme-css-stars .br-widget a {
+                font-size: 24px;
+                margin-right: 5px;
+            }
+            
+            .nav-tabs>li.active>a, 
+            .nav-tabs>li.active>a:focus, 
+            .nav-tabs>li.active>a:hover {
+                color: #555 !important;
+                cursor: default;
+                background-color: #fff;
+                border: 1px solid #ddd !important;
+                border-bottom-color: transparent !important;
+                padding: 10px 15px;
+                text-transform: initial;
+            }
+
+            .input-group {
+                position: relative;
+                display: table;
+                flex-wrap: initial;
+                align-items: center;
+                width: 100%;
+            }
+
+            .input-group-addon {
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                padding: 6px 8px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1;
+                color: #555;
+                text-align: center;
+                background-color: #eee;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-left: 0;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+            .input-group-addon.first-addon {
+                //padding: 8px 36px 8px 4px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-right: 0;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+            .input-group-addon.btn-danger{
+                //padding: 9px 22px 9px 11px;
+            }
+            .form-control:read-only {
+                background-image: initial;
+            }
+    
+      
+    
+    
+            select.form-control:not([size]):not([multiple]) {
+                height: initial;
+            }
+            .form-control {
+                font-size: 14px;
+            }
+
+            .btn {
+                border-radius: 2px;
+                padding: 0.5em 1em;
+                font-size: 12px;
+                line-height: initial;
+                min-width: 6em;
+                font-weight: initial;
+                text-transform: initial;
+                &:hover,
+                &:active,
+                &:focus {
+                    background-color: rgb(26, 179, 148);
+                    border-color: rgb(26, 179, 148);
+                }
+            }
+
+            .btn.btn-default {
+                color: rgb(51, 51, 51);
+                background-color: rgb(255, 255, 255);
+                border-color: rgb(204, 204, 204);
+            }
+
+            pages-editor {
+                .svd-page {
+                    height: initial;
+                }
+                .svd-page-selector.svd_custom_select {
+                    height: initial;
+                }
+            }
+
+            .navbar-default.editor-tabs {
+                .nav-item .nav-link{
+                    color: black;
+                }
+
+                li.active > a {
+                    background-color: #f3f3f4;
+                    border: 1px solid #e7eaec !important;
+                    border-bottom-color: #f3f3f4;
+                    color: #1ab394 !important;
+        
+                }
+            }
+
+            .svd_commercial_container,
+            .svd_commercial_text{
+                display: none;
+            }
+
+            .svd_content {
+                .svd_survey_designer {
+                    .svd_toolbox {
+                        .svd_toolbox_title {
+
+                        }
+                    }
+                    
+                    .svd_editors {
+                        .svd_toolbar {
+                            .svd_action {
+
+                            }
+                        }
+
+                        .svd_questions_editor {
+                            .empty-message {
+                                line-height: initial;
+                            }
+
+                        }
+
+                    }
+
+                    .svd_properties {
+                        height: 100%;
+                        .svd_object_selector {
+
+                        }
+                        .svd_object_editor {
+                            .table.svd_properties_grid {
+                                tbody {
+                                    tr {
+                                        td {
+                                            line-height: 5em;
+                                            a.form-control {
+                                                border: 1px solid #ccc;
+                                                padding: 6px 0;
+                                            }
+                                        }
+                                        td:nth-child(1) {
+                                            font-weight: 100;
+                                        }
+                                    }
+                                }
+                            } 
+                        }
+                    }
+                }
+
+                .svd_json_editor_area {
+                    height: 75vh !important; 
+                    width: 100%;
+                }
+                .svd_json_editor {
+                    height: initial;
+                }
+    
+            }
+
+            .modal-dialog {
+                .modal-header {
+                    padding: 15px;
+                    border-bottom: 1px solid rgb(229, 229, 229);
+                    display: initial;
+                    .close {
+                        margin: -1rem -1rem -1rem auto;
+                    }
+        
+                }
+
+                .modal-content {
+
+                }
+            } 
+        }
+
+
+        .svda-question-actions select.svda_current_type {
+            height: 28px;
+            font-weight: initial;
+            -webkit-appearance: menulist;
+        }
+
+    }
+
+}

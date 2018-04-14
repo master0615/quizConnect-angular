@@ -1,0 +1,24 @@
+<div id="surveys-create" class="col-md-8 col-sm-10 ml-auto mr-auto">
+    <div class="card card-nav-tabs">
+        <div class="card-header card-header-primary">Create a New Survey</div>
+        <div class="card-body">
+            <form class="form pt-2" [formGroup]="form" novalidate (ngSubmit)="create()">
+                <div class="form-group">
+                    <label for="surveyTitle" class="bmd-label-floating">Survey Title:</label>
+                    <input type="text" class="form-control" id="surveyTitle" formControlName="title" placeholder="Enter survey title">
+                </div>
+                <div class="form-group">
+                    <label for="surveyDesc">Survey Description:</label>
+                    <input type="text" class="form-control" id="surveyDesc" formControlName="description" placeholder="Enter survey description">
+                </div>        
+    
+                <div mat-dialog-actions class="pt-24">
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary" [disabled]="form.invalid"><i class="material-icons">file_upload</i> Create</button>
+                        <button type="button" class="btn btn-primary" (click)="back()"><i class="material-icons">arrow_back</i> Back</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

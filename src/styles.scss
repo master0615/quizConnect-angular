@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+.form-check .form-check-input:checked+.form-check-sign .check {
+    background: #4caf50;
+}
+.form-check .form-check-input:checked~.circle {
+    border-color: #4caf50;
+}
+.form-check .form-check-label .circle .check {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: #4caf50;
+    -webkit-transform: scale3d(0, 0, 0);
+    -moz-transform: scale3d(0, 0, 0);
+    -o-transform: scale3d(0, 0, 0);
+    -ms-transform: scale3d(0, 0, 0);
+    transform: scale3d(0, 0, 0);
+}
+// .form-control {
+//     border: 0;
+//     height: 36px;
+//     font-size: 14px;
+// }
+// .input-group {
+//     position: relative;
+//     display: flex;
+//     flex-wrap: initial;
+//     align-items: center;
+//     width: 100%;
+// }
+.card,
+label,
+span,
+a {
+    font-size: 14px;
+}
+// a{
+//     border:0;
+// }
